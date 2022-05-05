@@ -1,0 +1,43 @@
+.py-12
+{
+    padding-top: 12px ;
+    padding-bottom: 12px ;
+}
+
+.px-25
+{
+    padding-left: 25px;
+    padding-right:  25px;
+}
+
+.w-full
+{
+    width: 100%;
+}
+
+.p-8
+{
+    padding: 15px;
+}
+
+.py-8
+{
+    padding-top: 8px ;
+    padding-bottom: 8px ;
+}
+
+.px-16
+{
+    padding-left: 16px;
+    padding-right:  16px;
+}
+
+.z-10
+{
+    z-index: 10;
+}
+
+.max-w
+{
+    max-width: 343px;
+}
