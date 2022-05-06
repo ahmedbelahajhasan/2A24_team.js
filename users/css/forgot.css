@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* width: 100%; */
+    background-color: #3b3838;
+    position: relative;
+    display: flex;
+}
+
+.container{
+    background: #fff;
+    width: 100%;
+    height: 300px;
+    margin: 100px 500px;
+    border: 1px solid;
+    border-radius: 50px;
+    box-shadow: 0 0 2px 2px rgb(194, 191, 191);
+}
+
+.form-container{
+    margin: 80px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container{
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ .email{
+     margin: 10px;
+     background: none;
+     border-radius: 20px;
+     outline: none;
+     width: 100%;
+     font-size: 18px;
+     font-weight: 600;
+     color: black;
+ }
+
+ .form-container .passwd{
+    margin: 10px;
+    background: none;
+    border-radius: 20px;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+ .btn{
+    width: 250px;
+    height: 50px;
+    background: rgb(255, 145, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+} 
