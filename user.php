@@ -84,9 +84,9 @@ function imprimer() {
 
 		<!-- Input box to enter the
 			required data -->
-		<input type="text" size="60"
+		<input size="60"
 			maxlength="60" class="form-control"
-			id="content" placeholder="Enter content" />
+			id="content" placeholder="Enter content" style="background-color: #FF6600" />
 		</div>
 	</div>
 	<div class="form-group">
@@ -163,40 +163,37 @@ function imprimer() {
 
 body {
   
-  background-image: url('background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+ 
 }
 </style>
   <body>
     <div class="container my-5">
     <form method="post">
-  <div class="mb-3">
-    <label >id_res</label>
-    <input type="text" class="form-control"
-    placeholder="entrer votre id_res" id="id_res" name="id_res" required>
+  <div style="background-color: #FF6600" class="mb-3">
+    <label >id reservation</label>
+    <input class="form-control"
+    placeholder="enter your id reservation" id="id_res" name="id_res" >
     <span id="cidres"></span>
 
 </div>
-<div class="mb-3">
-    <label >id_user</label>
+<div style="background-color: #FF6600" class="mb-3">
+    <label >id user</label>
     <input type="id_user" class="form-control"
-    placeholder="entrer votre id_user"  id="ml" name="id_user" required>
+    placeholder="entrer your id user"  id="ml" name="id_user" size="10" >
     <span id="ciduser"></span>
 
 </div>
-<div class="mb-3">
-    <label >prix</label>
+<div style="background-color: #FF6600" class="mb-3">
+    <label >price</label>
     <input type="number" class="form-control" 
-    placeholder="entrer le prix " id="number"  name="prix" required>
+    placeholder="enter price " id="number"  name="prix" >
     <span id="cnumber"></span>
 
 </div>
-<div class="mb-3">
+<div style="background-color: #FF6600" class="mb-3">
     <label >description</label>
-    <input type="text" class="form-control"
-    placeholder="entrer votre description" id="description" name="des" required>
+    <input class="form-control"
+    placeholder="enter your description" id="description" name="des" >
     <span id="cdescription"></span>
 
 

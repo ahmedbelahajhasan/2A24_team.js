@@ -27,7 +27,7 @@ var prix=document.getElementById("prix").value
 var description=document.getElementById("description").value
 
  if (id_user<=000001 || id_user >=99999){
-    ciduser.innerHTML="id_user compris entre 000001 et 99999!!"}
+    id_user.innerHTML="id_user compris entre 000001 et 99999!!"}
 
 
 

@@ -78,7 +78,7 @@ if($result){
         <td>'.$num_c.'</td>
         <td>'.$date.'</td>
         <td>
-        <button class="btn btn-warning"><a href="modifier.php?modifiernom='.$nom.'" class="text-light">modifier</a></button>
+        <button class="btn btn-warning"><a href="modifier2.php?modifiernom='.$nom.'" class="text-light">modifier</a></button>
         <button class="btn btn-danger"><a href="supprimer.php?supprimernom='.$nom.'" class="text-light">supprimer</a></button>
     </td>
       </tr>';

@@ -41,10 +41,7 @@ if(isset($_POST['submit'])){
   </head>
   <!-- <style>
 body {
-  background-image: url('background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+
 }
 </style> -->
   <body>
