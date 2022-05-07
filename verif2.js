@@ -24,5 +24,5 @@ var mail=document.getElementById("ml").value
 
 var aux=mail.substr(mail.indexOf('@'),mail.length)
 if (aux!="@gmail.tn")
-cemail.innerHTML="Mail se termine par @gmail.tn!!"
+    mail.innerHTML="Mail se termine par @gmail.tn!!"
 }

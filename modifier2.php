@@ -1,10 +1,9 @@
 <?php
 include 'connect2.php';
-$nom=$_GET['modifiernom'];
-$sql="Select * from `commande` where nom=$nom";
+$num_c=$_GET['modifiernum_c'];
+$sql="Select * from `commande` where num_c=$num_c";
 $result=mysqli_query($con,$sql); // execution requete sur la bd
 $row=mysqli_fetch_assoc($result);// récupere la ligne suivant sous forme de tableau
-
 $nom=$row['nom'];
 $mail=$row['mail'];
 $num_c=$row['num_c'];
@@ -42,10 +41,7 @@ if(isset($_POST['submit'])){
   </head>
   <!-- <style>
 body {
-  background-image: url('background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+
 }
 </style> -->
   <body>

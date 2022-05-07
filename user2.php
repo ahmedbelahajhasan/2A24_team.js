@@ -88,9 +88,9 @@ function imprimer() {
 
 		<!-- Input box to enter the
 			required data -->
-		<input type="text" size="60"
+		<input size="60"
 			maxlength="60" class="form-control"
-			id="content" placeholder="Enter content" />
+			id="content" placeholder="Enter content" style="background-color: #FF6600" />
 		</div>
 	</div>
 	<div class="form-group">
@@ -166,42 +166,40 @@ function imprimer() {
 
   <style>
 body {
-  background-image: url('background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+
 }
 </style>
   <body>
-    <div class="container my-5">
+    <div class="container my-5" style="background-color: #FF6600; border: 2px solid; border-radius 10px;">
     <form method="post" id=myForm>
-  <div class="mb-3">
-    <label >nom</label>
-    <input type="text" class="form-control"
-    placeholder="entrer votre nom" id="nom"name="nom" required>
+  <div  style="width=250px;"  class="mb-3">
+    <label >name</label>
+    <input class="form-control"  style="width:200px"
+    placeholder="enter your name" id="nom" name="nom" >
     <span id="cmon"></span>
 </div>
-<div class="mb-3">
+<div  style="width=250px;" class="mb-3">
     <label >mail</label>
-    <input type="mail" class="form-control"
-    placeholder="entrer votre mail"   id="ml" name="mail" required>
+    <input type="mail" class="form-control "  style="width:200px"
+    placeholder="enter your mail"   id="ml" name="mail"  >
     <span id="cemail" style="color:#FF0000"> </span>
 
 </div>
-<div class="mb-3">
-    <label >num_c</label>
-    <input type="number" class="form-control" 
-    placeholder="entrer le numero de commande " name="num_c" required>
+<div style="  width=230px;" class="mb-3">
+    <label >order number</label>
+    <input type="number" class="form-control" style="width:200px"
+    placeholder="enter the order number " name="num_c" >
 </div>
-<div class="mb-3">
+<div style="  width=230px; " class="mb-3">
     <label >date</label>
-    <input type="text" class="form-control"
-    placeholder="entrer la date" name="date" required>
+    <input type="date" class="form-control"  style="width:200px" value="2022-05-08"
+       min="2022-05-08" max="2022-12-25"
+    placeholder="enter date" name="date" >
 </div>
 
 <input type="button" value="imprimer" onclick="window.print();" />
 
-  <button class="btn btn-warning" type="submit" onclick="verif2()" class="btn btn-primary" name="submit">Submit</button>
+  <button class="btn btn-warning" type="submit" onclick="verif2()" class="btn btn-primary" style="color=#000000"  name="submit">Submit</button>
 </form>
 </div>
 
