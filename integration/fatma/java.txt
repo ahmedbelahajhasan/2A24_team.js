@@ -1,0 +1,37 @@
+function verif()
+{
+
+var id_res=document.getElementById("nm").value
+var id_user=document.getElementById("pr").value
+var prix=document.getElementById("ml").value
+var des=document.getElementById("ps").value
+
+var cid_res=document.getElementById("cmon")
+var cid_user=document.getElementById("cprenom")
+var cprix=document.getElementById("cemail")
+var cdes=document.getElementById("cpassword")
+
+//initialisation
+cmon.innerHTML=""
+cprenom.innerHTML=""
+cemail.innerHTML=""
+cpassword.innerHTML=""
+
+
+if (prix<=10 || prix >=100){
+cprix.innerHTML="Nombre compris entre 10 et 100!!"}
+
+
+for (let i=0;i<des.length;i++)
+{
+    if (!(des.charAt(i).toUpperCase()>="A" && des.charAt(i).toUpperCase()<="Z"))
+    {
+        cdes.innerHTML="la description doit etre chaine!!"
+    break
+    }
+}
+
+
+
+
+}
